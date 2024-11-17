@@ -1,0 +1,126 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+.war-game{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.person{
+    height: 400px;
+    width: 45%;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 5px;
+    background-image: url(../image/background.jpeg);
+    background-size: cover;
+    background-position-y: -250px ;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+.person .health{
+    margin: 8px auto;
+    width: 95%;
+    height: 25px;
+    background-color: rgb(153, 153, 153);
+    border-radius: 5px;
+
+}
+
+.person .health span{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 212, 71);
+    display: block;
+    border-radius: 5px;
+}
+
+.person h2{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.person img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+.person button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin:10px 0px 0px 0px ;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 1;
+    transition: 1.0s;
+    border: 0;
+}
+
+.person button:hover{
+    opacity: 0.9;
+}
+
+
+.overall{
+     background:linear-gradient(to top , rgb(255, 255, 255), hsla(0, 0%, 100%, 0.192));
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0px;
+     border-radius: 5px;
+}
+
+
+
+
+/*****************replay section**********************/
+.replay-title{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin:20px;
+}
+
+.link-replay{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.replay-person img{
+    display: inline-block ;
+    width: 150px;
+    height: 150px;
+}
+
+.reolay-name{
+    margin: 40px 0px 20px 0px;
+}
